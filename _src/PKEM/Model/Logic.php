@@ -36,9 +36,9 @@ class Logic {
      * @Page: not-found
      */
     public function not_found() {
-        $_SESSION['message'] = "រកមិនឃើញទំព័រ ដែលអ្នកចង់បាន!";
+        $_SESSION['message'] = "Could not find your requested page!";
         return [
-            'title' => 'រកមិនឃើញ',
+            'title' => 'Not Found',
             'page' => $this->pageName,
         ];
     }
