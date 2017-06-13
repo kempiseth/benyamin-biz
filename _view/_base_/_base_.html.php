@@ -15,24 +15,24 @@
     <body page="<?= @$page ?>">
         <div class="wrapper">
             <header>
-                <span class="menu-icon"> &#9776; ម៉ឺនុយ </span>
+                <span class="menu-icon"> &#9776; Menu </span>
             </header>
             <nav id="nav-main">
                 <!-- Shown on all pages -->
-                <a href="/">ទំព័រដើម</a>
+                <a href="/">Home</a>
 
                 <!-- Page specific navs -->
                 <?= @$nav ?>
 
                 <!-- Shown on system pages -->
                 <?php if(@$_SESSION['isSuperUser']): ?>
-                    <a href="/manage-system">គ្រប់គ្រងប្រព័ន្ធ</a>
+                    <a href="/manage-system">Manage System</a>
                 <?php endif; ?>
 
                 <!-- Account related navs -->
                 <?php if(isset($_SESSION['userid'])): ?>
-                    <a id="account" href="/account">គណនី</a>
-                    <a id="logout" href="/logout">ចាកចេញ</a>
+                    <a id="account" href="/account">Account</a>
+                    <a id="logout" href="/logout">Log out</a>
                 <?php endif; ?>
             </nav>
             <main class="group">
@@ -50,8 +50,8 @@
                 </div>
             </main>
             <footer>
-                <div id="copyright" title="Author: កែម ពិសិដ្ឋ [017 228 500]">
-                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - រក្សារសិទ្ធគ្រប់យ៉ាង
+                <div id="copyright" title="Author: Piseth Kem [017 228 500]">
+                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - All rights reserved.
                 </div>
             </footer>
         </div>

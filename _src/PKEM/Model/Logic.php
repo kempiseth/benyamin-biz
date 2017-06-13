@@ -27,7 +27,7 @@ class Logic {
      */
     public function start() {
         return [
-            'title' => 'ចាប់ផ្ដើម',
+            'title' => 'Start',
             'page' => $this->pageName,
         ];
     }
@@ -61,7 +61,7 @@ class Logic {
         $users = $stmt->fetchAll(\PDO::FETCH_OBJ);
 
         return [
-            'title' => 'គ្រប់គ្រងប្រព័ន្ធ',
+            'title' => 'Manage System',
             'page' => $this->pageName,
             'users' => $users,
         ];
@@ -77,12 +77,12 @@ class Logic {
                 $_SESSION['userid'] = $user->getId();
                 Route::routeTo(START_PATH);
             } else {
-                $_SESSION['message'] = "ឈ្មោះអ្នកប្រើឬពាក្យសម្ងាត់មិនត្រឹមត្រូវ";
+                $_SESSION['message'] = "Username or Password is incorrect.";
             }
         }
 
         return [
-            'title' => 'ចូលប្រព័ន្ធ',
+            'title' => 'Log in',
             'page' => $this->pageName,
         ];
     }
@@ -102,12 +102,12 @@ class Logic {
                 $stmt->execute();
                 Route::routeTo(LOGOUT_PATH);
             } else {
-                $_SESSION['message'] = "ពាក្យសម្ងាត់ដែលបានបញ្ចូលមិនត្រូវគ្នា";
+                $_SESSION['message'] = "Passwords entered do not match";
             }
         }
 
         return [
-            'title' => 'គណនី',
+            'title' => 'Account',
             'page' => $this->pageName,
         ];
     }
