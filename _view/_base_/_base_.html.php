@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
         <title><?= $title.' - '.SITE_NAME ?></title>
-        <link href="https://fonts.googleapis.com/css?family=Dangrek&amp;subset=khmer" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
         <link href="/static/css/app.css" rel="stylesheet">
         <link href="/static/css/main.css" rel="stylesheet">
@@ -19,7 +18,7 @@
             </header>
             <nav id="nav-main">
                 <!-- Shown on all pages -->
-                <a href="/">Home</a>
+                <a page="start" href="/">Home</a>
 
                 <!-- Page specific navs -->
                 <?= @$nav ?>
@@ -50,26 +49,14 @@
                 </div>
             </main>
             <footer>
-                <div id="copyright" title="Author: Piseth Kem [017 228 500]">
+                <div id="copyright" title="Piseth Kem :: +855 017-228-500">
                     &copy; <?php echo date('Y').' '.SITE_NAME ?> - All rights reserved.
                 </div>
             </footer>
         </div>
 
         <script src="/static/js/app.js"></script>
-        <script>
-            var _width = $(window).width();
-
-            $('header span.menu-icon').click(function(){
-                $('nav#nav-main').toggle('slow');
-            });
-            $( window ).on('resize', function() {
-                if ( _width != $(this).width() ) {
-                    $('nav#nav-main').toggle($('header span.menu-icon').is(':hidden'));
-                    _width = $(this).width();
-                }
-            });
-        </script>
+        <script src="/static/js/main.js"></script>
         <?= @$js ?>
     </body>
 </html>

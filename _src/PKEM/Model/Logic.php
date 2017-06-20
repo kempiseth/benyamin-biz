@@ -27,7 +27,7 @@ class Logic {
      */
     public function start() {
         return [
-            'title' => 'Start',
+            'title' => 'Home',
             'page' => $this->pageName,
         ];
     }
