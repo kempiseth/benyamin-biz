@@ -17,6 +17,7 @@
             <header>
                 <div class="branding">
                     <h4><?= COMPANY_NAME ?></h4>
+                    <span><?= COMPANY_SHORT_DESC ?></span>
                 </div>
                 <span class="menu-icon"> &#9776; Menu </span>
             </header>

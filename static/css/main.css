@@ -12,7 +12,6 @@ body, input, select, textarea, button {
 }
 h4 {
     font-family: 'Exo', sans-serif;
-    font-weight: bold;
 }
 input._input {
     padding: 3px 6px;
@@ -25,7 +24,8 @@ body[page="login"] nav a {
     display: none;
 }
 .active {
-    color: lightgreen;
+    color: green;
+    font-weight: bold;
 }
 .caution, a:hover {
     color: indianred;
