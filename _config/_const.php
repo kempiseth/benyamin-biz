@@ -6,3 +6,4 @@ const LOGIN_PATH = '/login';
 const LOGOUT_PATH = '/logout';
 const LANG = 'en';
 const SITE_NAME = 'Benyamin';
+const COMPANY_NAME = 'Benyamin Business Co., Ltd.';

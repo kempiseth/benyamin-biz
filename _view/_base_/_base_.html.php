@@ -7,13 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
         <title><?= $title.' - '.SITE_NAME ?></title>
-        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo:400,800" rel="stylesheet">
         <link href="/static/css/app.css" rel="stylesheet">
         <link href="/static/css/main.css" rel="stylesheet">
     </head>
     <body page="<?= @$page ?>">
         <div class="wrapper">
             <header>
+                <div class="branding">
+                    <h4><?= COMPANY_NAME ?></h4>
+                </div>
                 <span class="menu-icon"> &#9776; Menu </span>
             </header>
             <nav id="nav-main">
