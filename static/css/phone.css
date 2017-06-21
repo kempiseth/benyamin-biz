@@ -24,7 +24,7 @@
     span.menu-icon {
         display: block;
         float: right;
-        padding: 10px;
+        padding: 25px 10px 0 0;
         cursor: pointer;
     }
     table input[type='text'],

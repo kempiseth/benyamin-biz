@@ -33,6 +33,16 @@ class Logic {
     }
 
     /**
+     * @Page: about
+     */
+    public function about() {
+        return [
+            'title' => 'About Us',
+            'page' => $this->pageName,
+        ];
+    }
+
+    /**
      * @Page: not-found
      */
     public function not_found() {
