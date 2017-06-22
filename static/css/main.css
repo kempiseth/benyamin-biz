@@ -48,3 +48,16 @@ div.social-media img.icon {
     width: 32px;
     margin: 0 5px;
 }
+header {
+    background-image: url('/static/image/background.png');
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+a.link-button {
+    background-color: #666;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 10%;
+}

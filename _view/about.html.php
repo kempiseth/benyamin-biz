@@ -6,7 +6,7 @@ $section = <<<"SECTION"
   <figcaption>Mr. Uk Bory, Founder</figcaption>
 </figure>
 <p>
-We professionally provide businesses' management consulting and legal support services.
+Benyamin Business Co., Ltd. is a professional company specializing in business registration and tax consultation.
 </p>
 SECTION;
 

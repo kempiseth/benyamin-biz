@@ -16,12 +16,7 @@
         <div class="wrapper">
             <header>
                 <div class="social-media group">
-                    <a href="#" target="_blank">
-                        <img id="tt-link" class="icon" src="/static/image/twitter_grey.png">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img id="yt-link" class="icon" src="/static/image/youtube_grey.png">
-                    </a>
+                    <a class="link-button float-right" href="tel:098481115" target="_blank" title="Call 098-481-115"> CALL NOW! </a>
                     <a href="https://www.facebook.com/BestKhmerConsulting" target="_blank">
                         <img id="fb-link" class="icon" src="/static/image/facebook_grey.png">
                     </a>
@@ -61,16 +56,18 @@
                         <?= @$section ?>
                     </section>
                     <article>
+                        <?= @$article ?>
                     </article>
                 </div>
                 <div id="main-right">
                     <aside>
+                        <?= @$aside ?>
                     </aside>
                 </div>
             </main>
             <footer>
-                <div id="copyright" title="Piseth Kem :: +855 017-228-500">
-                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - All rights reserved.<br>
+                <div id="copyright">
+                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - <a href="tel:098481115">Tel: 098-481-115</a><br>
                     #E16, Street 489K, Phum Krang Angkrang, Sangkat Krang Tnong, Khan Sen Sok, Phnom Penh
                 </div>
             </footer>
