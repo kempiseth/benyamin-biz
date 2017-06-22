@@ -31,8 +31,11 @@
     table input[type='password'] {
         width: 98%;
     }
-    figure#owner img {
-        width: 70%;
+    figure {
+        width: 50%;
+    }
+    figure img {
+        width: 100%;
     }
 
 }

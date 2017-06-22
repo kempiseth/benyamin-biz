@@ -15,6 +15,11 @@
     <body page="<?= @$page ?>">
         <div class="wrapper">
             <header>
+                <div class="social-media group">
+                    <a href="https://www.facebook.com/BestKhmerConsulting" target="_blank">
+                        <img id="fb-link" class="icon" src="/static/image/facebook_grey.png">
+                    </a>
+                </div>
                 <div class="branding">
                     <h4><?= COMPANY_NAME ?></h4>
                     <span><?= COMPANY_SHORT_DESC ?></span>

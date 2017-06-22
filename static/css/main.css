@@ -10,6 +10,10 @@ body, input, select, textarea, button {
     font-family: 'Bubbler One', sans-serif;
     border-radius: 0;
 }
+body {
+    font-size: 15px;
+    color: #444;
+}
 h4 {
     font-family: 'Exo', sans-serif;
 }
@@ -34,4 +38,11 @@ body[page="login"] nav a {
 .float-left {
     float: left;
     margin: 0 10px 10px 0;
+}
+.float-right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+div.social-media img.icon {
+    float: right;
 }
