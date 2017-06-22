@@ -56,7 +56,8 @@
             </main>
             <footer>
                 <div id="copyright" title="Piseth Kem :: +855 017-228-500">
-                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - All rights reserved.
+                    &copy; <?php echo date('Y').' '.SITE_NAME ?> - All rights reserved.<br>
+                    #E16, Street 489K, Phum Krang Angkrang, Sangkat Krang Tnong, Khan Sen Sok, Phnom Penh
                 </div>
             </footer>
         </div>
