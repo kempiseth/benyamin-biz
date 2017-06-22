@@ -16,8 +16,17 @@
         <div class="wrapper">
             <header>
                 <div class="social-media group">
+                    <a href="#" target="_blank">
+                        <img id="tt-link" class="icon" src="/static/image/twitter_grey.png">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img id="yt-link" class="icon" src="/static/image/youtube_grey.png">
+                    </a>
                     <a href="https://www.facebook.com/BestKhmerConsulting" target="_blank">
                         <img id="fb-link" class="icon" src="/static/image/facebook_grey.png">
+                    </a>
+                    <a href="mailto:sreylinheng@gmail.com" target="_blank">
+                        <img id="em-link" class="icon" src="/static/image/email_grey.png">
                     </a>
                 </div>
                 <div class="branding">

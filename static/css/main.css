@@ -45,4 +45,6 @@ body[page="login"] nav a {
 }
 div.social-media img.icon {
     float: right;
+    width: 32px;
+    margin: 0 5px;
 }
