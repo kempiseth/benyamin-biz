@@ -17,10 +17,10 @@
             <header>
                 <div class="social-media group">
                     <a class="link-button float-right" href="tel:098481115" target="_blank" title="Call 098-481-115"> CALL NOW! </a>
-                    <a href="https://www.facebook.com/BestKhmerConsulting" target="_blank">
+                    <a href="https://www.facebook.com/BestKhmerConsulting" target="_blank" title="Go to facebook page">
                         <img id="fb-link" class="icon" src="/static/image/facebook_grey.png">
                     </a>
-                    <a href="mailto:sreylinheng@gmail.com" target="_blank">
+                    <a href="mailto:boryuk@gmail.com" target="_blank" title="Send us an email">
                         <img id="em-link" class="icon" src="/static/image/email_grey.png">
                     </a>
                 </div>

@@ -11,8 +11,8 @@ body, input, select, textarea, button {
     border-radius: 0;
 }
 body {
-    font-size: 15px;
-    color: #444;
+    font-size: 16px;
+    color: black;
 }
 h4 {
     font-family: 'Exo', sans-serif;
