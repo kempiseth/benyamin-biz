@@ -33,6 +33,7 @@
             <nav id="nav-main">
                 <!-- Shown on all pages -->
                 <a page="start" href="/">Home</a>
+                <a page="services" href="/services">Services</a>
                 <a page="about" href="/about">About Us</a>
 
                 <!-- Page specific navs -->

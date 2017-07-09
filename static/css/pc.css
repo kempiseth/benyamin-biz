@@ -92,3 +92,15 @@ figcaption, div#copyright {
     text-align: center;
     font-size: 12.5px;
 }
+div.section {
+    margin: 20px 0;
+}
+div.header {
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+}
+div.inner-text {
+    padding: 10px;
+    background-color: ghostwhite;
+}

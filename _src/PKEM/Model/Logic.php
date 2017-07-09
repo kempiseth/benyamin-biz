@@ -33,6 +33,16 @@ class Logic {
     }
 
     /**
+     * @Page: services
+     */
+    public function services() {
+        return [
+            'title' => 'Services',
+            'page' => $this->pageName,
+        ];
+    }
+
+    /**
      * @Page: about
      */
     public function about() {
@@ -46,7 +56,7 @@ class Logic {
      * @Page: not-found
      */
     public function not_found() {
-        $_SESSION['message'] = "Could not find your requested page!";
+        $_SESSION['message'] = "We could not find your requested page!";
         return [
             'title' => 'Not Found',
             'page' => $this->pageName,
