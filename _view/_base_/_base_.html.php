@@ -35,6 +35,7 @@
                 <a page="start" href="/">Home</a>
                 <a page="services" href="/services">Services</a>
                 <a page="about" href="/about">About Us</a>
+                <a page="contact" href="/contact">Contact Us</a>
 
                 <!-- Page specific navs -->
                 <?= @$nav ?>

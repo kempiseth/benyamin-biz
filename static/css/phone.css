@@ -1,7 +1,4 @@
 @media only screen and (max-width: 450px) {
-    table tr td {
-        display: block;
-    }
     table#select-user td.action {
         float: right;
         padding: 12px;

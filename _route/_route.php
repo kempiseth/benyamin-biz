@@ -6,4 +6,5 @@ return [
 //    LOGOUT_PATH => "logout",
     '/services' => "services",
     '/about' => "about",
+    '/contact' => "contact",
 ];

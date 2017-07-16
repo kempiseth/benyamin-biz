@@ -43,11 +43,21 @@ class Logic {
     }
 
     /**
-     * @Page: about
+     * @Page: about us
      */
     public function about() {
         return [
             'title' => 'About Us',
+            'page' => $this->pageName,
+        ];
+    }
+
+    /**
+     * @Page: contact us
+     */
+    public function contact() {
+        return [
+            'title' => 'Contact Us',
             'page' => $this->pageName,
         ];
     }
