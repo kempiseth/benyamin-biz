@@ -53,6 +53,16 @@ class Logic {
     }
 
     /**
+     * @Page: testimonial
+     */
+    public function testimonial() {
+        return [
+            'title' => 'Testimonial',
+            'page' => $this->pageName,
+        ];
+    }
+
+    /**
      * @Page: contact us
      */
     public function contact() {

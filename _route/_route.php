@@ -5,6 +5,7 @@ return [
 //    LOGIN_PATH => "login",
 //    LOGOUT_PATH => "logout",
     '/services' => "services",
+    '/testimonial' => "testimonial",
     '/about' => "about",
     '/contact' => "contact",
 ];

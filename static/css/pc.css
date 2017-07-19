@@ -104,3 +104,12 @@ div.inner-text {
     padding: 10px;
     background-color: ghostwhite;
 }
+div.ttmn {
+    margin-top: 15px;
+    border-bottom: dashed 1px whitesmoke;
+}
+div.ttmn img {
+    width: 120px;
+    height: 150px;
+    background-color: ghostwhite;
+}
