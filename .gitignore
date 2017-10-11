@@ -1,4 +1,5 @@
 *~
+*.save
 .local
 .*.swp
 *.sqlite3

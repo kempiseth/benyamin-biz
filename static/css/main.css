@@ -21,6 +21,9 @@ body {
 h4 {
     font-family: 'Exo', sans-serif;
 }
+img {
+    margin: 5px;
+}
 input._input {
     padding: 3px 6px;
     border: solid 1px #DDD;
