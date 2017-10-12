@@ -5,9 +5,8 @@ $section = <<<"SECTION"
   <img src="/static/image/owner.jpg" alt="Uk Bory">
   <figcaption>Mr. Uk Bory, Founder</figcaption>
 </figure>
-<p>
-Benyamin Business Co., Ltd. is a professional company specializing in business registration and tax consultation.
-</p>
+<p>Benyamin Business Co., Ltd a professional registered entity pursuing to diligently serve any business and investment purposes in various fields.</p>
+<p>We provide a full range of professional services including accounting service, tax service, business registration and real estate services.</p>
 SECTION;
 
 $article = <<<"ARTICLE"
